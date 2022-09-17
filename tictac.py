@@ -8,7 +8,6 @@ tk.Label(root, text="Tic Tac Toe", font=('Ariel', 25)).pack()
 status_label = tk.Label(root, text="X's turn", font=('Ariel', 15), bg='green', fg='snow')
 status_label.pack(fill=tk.X)
 def play_again():
-def play_again():
     global current_chr
     current_chr = 'X'
     for point in XO_points:
